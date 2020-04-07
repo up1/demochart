@@ -13,7 +13,7 @@ export class DataService {
   }
 
   readData(): Observable<Result> {
-    return this.http.get<Result>('https://api.airtable.com/v0/appTmxT7I3Kh61mYq/data?pageSize=30&view=Grid%20view&api_key=key3Bb6XIxxcxFk7U');
+    return this.http.get<Result>('https://api.airtable.com/v0/appTmxT7I3Kh61mYq/data?pageSize=30&view=Grid%20view&api_key=keyqclZmWPbwWvwP6');
   }
 
 }
